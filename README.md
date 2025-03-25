@@ -2,7 +2,7 @@
 
 Applied Deep Learning (深度學習之應用) 2024 Fall NTU CSIE by Vivian Chen 陳縕儂
 
-This course is lectured by Vivian Chen (陳縕儂) and has three homeworks and one final project.
+This course has three homeworks and one final project.
    1. Chinese Extractive Question Answering (QA)
    2. Chinese News Summarization (Title Generation)
    3. Traditional Chinese and Classical Chinese Translation
@@ -22,7 +22,6 @@ Browse 2024 [course website](https://www.csie.ntu.edu.tw/~miulab/f113-adl/) for 
         - Rouge 1: 24.87
         - Rouge 2: 9.88 
         - Rouge 3: 22.38 
-
 ### 3. Traditional Chinese and Classical Chinese Translation
 - [HW3](./ADL_HW3/hw3.pptx): [Report](./ADL_HW3/report.pdf)
   - LoRA Fine-tuning gemma-2-2b-it
