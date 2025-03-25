@@ -1,0 +1,18 @@
+python run_summarization_no_trainer.py \
+    --model_name_or_path google/mt5-small  \
+    --source_prefix "summarize: " \
+    --output_dir ./res \
+    --gradient_accumulation_steps 2 \
+    --with_tracking \
+    --num_train_epochs 16 \
+    --text_column maintext \
+    --summary_column title \
+    --train_file data/train.jsonl \
+    --validation_file data/val.jsonl \
+    --per_device_train_batch_size 28 \
+    --max_source_length 512 \
+    --max_target_length 128 \
+    --preprocessing_num_workers 16 \
+    --learning_rate 5e-4 \
+    --num_beams 1 \
+    --num_warmup_steps 300
